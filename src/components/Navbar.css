@@ -1,0 +1,46 @@
+.navbar {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 20px 50px;      
+  background-color: rgba(0, 0, 0, 0.6);
+  color: #fff;
+  position: fixed;
+  top: 0;
+  left: 0;
+  right: 0;
+  width: 100%;
+  max-width: 100vw;       /* <-- add this */
+  box-sizing: border-box; /* keeps padding inside width */
+  z-index: 800;
+  overflow-x: hidden;     /* already there */
+}
+
+
+.navbar-logo {
+  font-size: 1.5rem;
+  font-weight: bold;
+}
+
+.navbar-links {
+  list-style: none;
+  display: flex;
+  gap: 40px;            /* reduce gap */
+  margin: 0;
+  padding: 0;
+  flex-wrap: wrap;      /* allows items to go to next line on small screens */
+}
+
+.navbar-links a {
+  color: white;
+  text-decoration: none;
+  font-weight: 500;
+  transition: color 0.2s ease;
+  white-space: nowrap;  /* prevents text from breaking mid-word */
+}
+
+.navbar-links a:hover {
+  color: #cc66ff;
+  text-shadow: 0 0 8px #ffd966;
+}
+

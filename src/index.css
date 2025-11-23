@@ -1,0 +1,20 @@
+/* index.css */
+body {
+  margin: 0;
+  font-family: Arial, sans-serif;
+  background: linear-gradient(130deg, #5eb4f3 0%, #4e30bb 50%, #27057c 100%);
+  color: #000000;
+}
+
+a {
+  color: #2563eb;
+  text-decoration: none;
+}
+
+a:hover {
+  text-decoration: underline;
+}
+
+.App {
+  text-align: center;
+}

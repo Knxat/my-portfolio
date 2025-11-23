@@ -1,0 +1,43 @@
+.footer {
+  display: flex;
+  justify-content: center;
+  background-color: rgba(12, 0, 17, 0.8); /* last number is opacity (0-1) */
+  border-radius: 10px;
+  box-shadow: 0 0 20px rgba(100, 50, 255, 0.8);
+  width: 100%;
+  max-width: 400px;
+  margin:0 auto;
+  margin-bottom: 300px;
+  text-align: center;
+}
+
+.footer h2{
+  text-align: center;
+}
+
+.contact {
+  margin: 0;
+  padding: 20px 30px; /* adjust shrink/grow */
+}
+
+.footer a {
+  text-decoration: none;
+  font-weight: bold;
+}
+
+.footer a:hover {
+  text-decoration: underline;
+}
+
+.resume-line {
+  display: flex;
+  align-items: center;
+  justify-content: center; /* centers the icon + link */
+  gap: 8px; /* space between icon and text */
+  width: 100%;
+}
+.pdf-icon {
+  display: flex;
+  align-items: center;
+
+}

@@ -1,0 +1,21 @@
+html, body {
+  margin: 0;
+  padding: 0;
+  scroll-behavior: smooth;
+  font-family: 'Inter', sans-serif;
+  /*background: linear-gradient(160deg, #0a0f24, #351c56, #4f2a87);*/
+
+  color: #e5e5e5;
+}
+
+body {
+  overflow-y: auto; /* normal scrolling */
+
+  background: linear-gradient(rgba(0, 0, 0, 0.4)),
+    url('/images/background.png') no-repeat center center fixed;
+  background-size: cover;
+}
+
+section {
+  padding: 80px 20px;  /* space inside each section */
+}

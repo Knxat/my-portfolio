@@ -1,0 +1,36 @@
+.about {
+  max-width: 900px;
+  margin: 200px auto;
+  padding: 40px;
+}
+
+.about h1 {
+  color: #ffffff;
+  padding-bottom: 20px;
+  text-align: left;
+}
+
+.about p {
+  color: #dddddd;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  font-size: 1.1rem;
+  line-height: 1.6;
+  margin-bottom: 20px;
+}
+
+.fade-in {
+  opacity: 0;
+  transform: translateY(10px);
+  transition: opacity 2s ease-out, transform 1s ease-out;
+}
+
+.fade-in-visible {
+  opacity: 1;
+  transform: translateY(0);
+}
+
+.fade-delay {
+  transition-delay: 1.2s; /* delay for second paragraph */
+}
+
+
